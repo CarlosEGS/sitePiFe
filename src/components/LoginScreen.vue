@@ -62,7 +62,7 @@
 
 <style type="text/css">
         body {
-  background: #e9e9e9;
+  background: #e5d2ec;
   color: #666666;
   font-family: 'RobotoDraft', 'Roboto', sans-serif;
   font-size: 14px;
@@ -85,10 +85,10 @@
   font-size: 12px;
 }
 .pen-title span .fa {
-  color: #ff5e00;
+  color: #9905ee;
 }
 .pen-title span a {
-  color: #ff5e00;
+  color: #9905ee;
   font-weight: 600;
   text-decoration: none;
 }
@@ -101,7 +101,7 @@
 .rerun a {
   cursor: pointer;
   display: inline-block;
-  background: #ff5e00;
+  background: #9905ee;
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   padding: 10px 20px;
@@ -119,7 +119,7 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background: #ff5e00;
+  background: #9905ee;
   width: 56px;
   height: 56px;
   border-radius: 100%;
@@ -140,7 +140,7 @@
 #portfolio {
   bottom: 96px;
   right: 36px;
-  background: #ff5e00;
+  background: #9905ee;
   width: 44px;
   height: 44px;
   -webkit-animation: buttonFadeInUp 1s ease;
@@ -246,10 +246,10 @@
 .card .title {
   position: relative;
   z-index: 1;
-  border-left: 5px solid #ff5e00;
+  border-left: 5px solid #9905ee;
   margin: 0 0 35px;
   padding: 10px 0 10px 50px;
-  color:#ff5e00;
+  color:#9905ee;
   font-size: 32px;
   font-weight: 600;
   text-transform: uppercase;
@@ -305,7 +305,7 @@
 .card .input-container .bar:before, .card .input-container .bar:after {
   content: '';
   position: absolute;
-  background: #ff5e00;
+  background: #9905ee;
   width: 0;
   height: 2px;
   -webkit-transition: .2s ease;
@@ -351,7 +351,7 @@
   top: 50%;
   left: 50%;
   display: block;
-  background: #ff5e00;
+  background: #9905ee;
   width: 30px;
   height: 30px;
   border-radius: 100%;
@@ -361,10 +361,10 @@
   transition: .3s ease;
 }
 .card .button-container button:hover, .card .button-container button:active, .card .button-container button:focus {
-  border-color: #ff5e00;
+  border-color: #9905ee;
 }
 .card .button-container button:hover span, .card .button-container button:active span, .card .button-container button:focus span {
-  color: #ff5e00;
+  color: #9905ee;
 }
 .card .button-container button:active span, .card .button-container button:focus span {
   color: #ffffff;
@@ -410,7 +410,7 @@
 }
 .card.alt .toggle {
   position: relative;
-  background: #ff5e00;
+  background: #9905ee;
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -481,7 +481,7 @@
   border-color: #ffffff;
 }
 .card.alt .button-container button span {
-  color: #ff5e00;
+  color: #9905ee;
 }
 .card.alt .button-container button:hover {
   background: rgba(255, 255, 255, 0.9);
