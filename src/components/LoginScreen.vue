@@ -63,7 +63,7 @@
 <style type="text/css">
         body {
   background: #e5d2ec;
-  color: #666666;
+  color: #6d6c6c;
   font-family: 'RobotoDraft', 'Roboto', sans-serif;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
@@ -523,7 +523,7 @@
      Login(){
         let uri = 'http://localhost:8000/api/Login';
         this.axios.post(uri, this.Usuario).then((response) => {
-          this.$router.push({name: 'TelaPrincipal'})
+        this.$router.push('/TrashCan')
         })
     }
   }

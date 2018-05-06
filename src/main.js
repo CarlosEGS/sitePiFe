@@ -9,7 +9,8 @@ Vue.use(VueAxios, axios);
 
 import App from './App.vue'
 import LoginScreen from './components/LoginScreen.vue'
-import TelaPrincipal from "./components/TelaPrincipal.vue"
+import TrashCan from "./components/TrashCan.vue"
+import AddCan from "./components/AddCan.vue"
 
 const routes = [
       {
@@ -18,10 +19,15 @@ const routes = [
             component: LoginScreen
       },
       {
-            name: 'TelaPrincipal',
-            path: '/',
-            component: TelaPrincipal
-      }
+            name: 'TrashCan',
+            path: '/TrashCan',
+            component: TrashCan
+      },
+      {
+            name: 'AddCan',
+            path: '/AddCan',
+            component: AddCan
+      },
 ];
 
 const router = new VueRouter({ mode: 'history', routes: routes });
