@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div>
-            <transition name="fade">
+            <transition name="slide-fade">
                 <router-view></router-view>
             </transition>
         </div>
